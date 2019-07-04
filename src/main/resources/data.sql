@@ -1,4 +1,9 @@
-INSERT INTO USUARIO(nome, email, senha) VALUES('Aluno', 'aluno@email.com', '123456');
+-- noinspection SqlDialectInspectionForFile
+
+-- noinspection SqlNoDataSourceInspectionForFile
+
+INSERT INTO USUARIO(nome, email, senha) VALUES('Aluno', 'aluno@email.com',
+'$2a$10$T/BRm7/Es.ULfutskmbVQ.CodZ24Z7pPM5AETDaZ2LOUS6.ypY/MS');
 
 INSERT INTO CURSO(nome, categoria) VALUES('Spring Boot', 'Programação');
 INSERT INTO CURSO(nome, categoria) VALUES('HTML 5', 'Front-end');
